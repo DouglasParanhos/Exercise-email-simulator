@@ -21,8 +21,8 @@ public class Email {
 
 		String retorno = "De: " + this.remetente + "\n";
 		retorno += "Para: " + Arrays.toString(this.destinatarios) + "\n";
-		retorno += "Para: " + this.assunto + "\n";
-		retorno += "Para: " + this.corpo + "\n";
+		retorno += this.assunto + "\n";
+		retorno += this.corpo + "\n";
 		
 		return retorno;
 	}

@@ -7,6 +7,7 @@ public class ADI_2020_2 {
 		CaixaPostal sicrano = new CaixaPostal("Sicrano");
 		CaixaPostal beltrano = new CaixaPostal("Beltrano");
 		CaixaPostal outrano = new CaixaPostal("Outrano");
+		
 		servidor.adicionaCaixa(fulano);
 		servidor.adicionaCaixa(sicrano);
 		servidor.adicionaCaixa(beltrano);

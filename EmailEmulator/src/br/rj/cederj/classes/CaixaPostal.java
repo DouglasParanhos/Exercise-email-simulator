@@ -18,6 +18,7 @@ public class CaixaPostal {
 	public String toString() {
 		String retorno = ">>> Caixa Postal de " + this.user + " <<< \n";
 		
+		//Como não são muitos emails a princípio, não é necessário usar StringBuilder
 		for(Email e: emails) {
 			retorno += e.toString();
 		}
